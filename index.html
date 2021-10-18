@@ -5,11 +5,15 @@
     <meta charset="utf-8" />
     <title>DP Idle - Idle game</title>
 </head>
-<body>
+<body onload="returnLevel()">
+    <p id="level"></p>
+    <p id="xp"></p>
+    <p id="money"></p>
     <div id="earthBase">
         <button onclick="buyItem(1)" id="e1">Juice Stand $10</button> <!--e stands for earth base-->
     </div>
-
+    <p id="xpLevel"></p>
+    <p>Value of level for xp 500</p>
     <script src="script.js"></script>
 </body>
 </html>
